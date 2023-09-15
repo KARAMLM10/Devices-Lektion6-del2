@@ -46,7 +46,7 @@ namespace Device.Fan
                 
                 else 
                     fan.Stop();
-                fan.Begin();
+
                 await Task.Delay(1000);
                     
             }
